@@ -1,0 +1,2522 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Au fil de la langue, au fil de la mer - FLE B1 | Costa da Morte - Bretagne</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#accueil" class="logo">
+                <span class="logo-icon">🗼</span>
+                <span class="logo-text">Camiño dos Faros</span>
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#parcours" class="nav-link">Parcours</a></li>
+                <li><a href="#unites" class="nav-link">Unités</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#culture" class="nav-link">Culture</a></li>
+                <li><a href="#projet" class="nav-link">Projet final</a></li>
+                <li><a href="#apprendre" class="nav-link">Apprendre</a></li>
+                <li><a href="#numerique" class="nav-link">Outils</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section 1: Accueil -->
+    <section id="accueil" class="hero-section">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span>🌊</span> Costa da Morte, Galicia
+            </div>
+            <h1 class="animate-fade-in">
+                <span class="highlight">Bienvenue</span> sur le<br>Camiño dos Faros!
+            </h1>
+            <p class="subtitle animate-fade-in">
+                Un voyage linguistique et culturel entre la Galice et la Bretagne
+            </p>
+            
+            <div class="level-info animate-fade-in">
+                <span class="level-badge">Niveau FLE: A2-B1</span>
+                <span class="exchange-badge">🗺️ Échange Galicia-Bretagne</span>
+            </div>
+
+            <div class="intro-card animate-fade-in">
+                <h2>📚 Présentation du projet</h2>
+                <p>Ce site est le point de rencontre de notre échange scolaire! Ensemble, nous allons:</p>
+                <ul class="intro-list">
+                    <li>🌊 Découvrir la magnifique Costa da Morte et ses phares</li>
+                    <li>💬 Apprendre le français à travers des activités variées</li>
+                    <li>🤝 Échanger avec des élèves français du Lycée de Bretagne</li>
+                    <li>📖 Créer un guide de voyage numérique ensemble</li>
+                </ul>
+            </div>
+
+            <div class="objectives-preview animate-fade-in">
+                <div class="obj-card">
+                    <span class="obj-icon">💬</span>
+                    <h3>Communiquer</h3>
+                    <p>Développer sa compétence communicative</p>
+                </div>
+                <div class="obj-card">
+                    <span class="obj-icon">🌍</span>
+                    <h3>Découvrir</h3>
+                    <p>Explorer les paysages atlantiques</p>
+                </div>
+                <div class="obj-card">
+                    <span class="obj-icon">🤝</span>
+                    <h3>Échanger</h3>
+                    <p>Collaborer avec nos partenaires</p>
+                </div>
+                <div class="obj-card">
+                    <span class="obj-icon">🎯</span>
+                    <h3>Créer</h3>
+                    <p>Réaliser le guide de voyage final</p>
+                </div>
+            </div>
+
+            <div class="video-container animate-fade-in">
+                <div class="video-thumbnail">
+                    <div class="play-btn">▶️</div>
+                    <p>Regardez notre vidéo de présentation</p>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path fill="#0f172a" d="M0,64L48,69.3C96,75,192,85,288,80C384,75,480,53,576,48C672,43,768,53,864,58.7C960,64,1056,64,1152,58.7C1248,53,1344,43,1392,37.3L1440,32L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Section 2: Notre parcours -->
+    <section id="parcours" class="parcours-section">
+        <div class="container">
+            <h2 class="section-title">🗺️ Notre parcours: le Camiño dos Faros</h2>
+            <p class="section-intro">
+                Le Camiño dos Faros est un sentier côtier de <strong>200 km</strong> qui longe la Costa da Morte, 
+                dans la province de La Coruña, en Galice. Son nom signifie <em>"le chemin des phares"</em> en galicien.
+            </p>
+
+            <div class="map-container">
+                <div class="interactive-map">
+                    <div class="map-placeholder">
+                        <span class="map-icon">🗺️</span>
+                        <h3>Costa da Morte</h3>
+                        <p>Cliquez sur les points pour découvrir!</p>
+                        <div class="map-points">
+                            <button class="map-point" style="top: 20%; left: 15%;" data-place="malpica" title="Malpica">🗼</button>
+                            <button class="map-point" style="top: 35%; left: 30%;" data-place="carnota" title="Carnota">🏖️</button>
+                            <button class="map-point" style="top: 50%; left: 45%;" data-place="fisterra" title="Fisterra">🌅</button>
+                            <button class="map-point" style="top: 65%; left: 60%;" data-place="muxia" title="Muxía">⛪</button>
+                            <button class="map-point" style="top: 40%; left: 25%;" data-place="sisagra" title="Cabo Sisagra">🗼</button>
+                        </div>
+                    </div>
+                    <div class="map-info-panel" id="mapInfo">
+                        <h4>Sélectionnez un lieu</h4>
+                        <p>Cliquez sur un point de la carte pour voir les informations.</p>
+                    </div>
+                </div>
+                <div class="map-legend">
+                    <span class="legend-item"><span class="legend-dot" style="background: #f59e0b;"></span> Phares</span>
+                    <span class="legend-item"><span class="legend-dot" style="background: #06b6d4;"></span> Plages</span>
+                    <span class="legend-item"><span class="legend-dot" style="background: #10b981;"></span> Villages</span>
+                </div>
+            </div>
+
+            <div class="places-grid">
+                <div class="place-card" data-place="malpica">
+                    <div class="place-image" style="background: linear-gradient(135deg, #1e3a5f, #2d5a7b);">
+                        <span class="place-icon">🗼</span>
+                    </div>
+                    <div class="place-content">
+                        <h3>Malpica de Bergantiños</h3>
+                        <p class="place-subtitle">Le point de départ du chemin</p>
+                        <p class="place-description">
+                            Malpica est le premier phare du Camiño dos Faros. Dominant la Punta da Barca, 
+                            il offre une vue spectaculaire sur l'océan Atlantique. Ce village de pêcheurs 
+                            est connu pour ses bonnes connexions maritimes avec la Bretagne.
+                        </p>
+                        <div class="place-facts">
+                            <span>📍 Altitude: 85m</span>
+                            <span>🏗️ 1852</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="place-card" data-place="carnota">
+                    <div class="place-image" style="background: linear-gradient(135deg, #2d5a7b, #3d7a9b);">
+                        <span class="place-icon">🏖️</span>
+                    </div>
+                    <div class="place-content">
+                        <h3>Plage de Carnota</h3>
+                        <p class="place-subtitle">La plus grande plage de Galice</p>
+                        <p class="place-description">
+                            Avec ses 1,4 km de longueur, c'est l'une des plages les plus spectaculaires 
+                            de la côte. Sa dune naturelle est un écosystème unique protégé.
+                        </p>
+                        <div class="place-facts">
+                            <span>🏖️ 1,4 km</span>
+                            <span>🌿 Dune protégée</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="place-card" data-place="fisterra">
+                    <div class="place-image" style="background: linear-gradient(135deg, #3d7a9b, #4d8aab);">
+                        <span class="place-icon">🌅</span>
+                    </div>
+                    <div class="place-content">
+                        <h3>Fisterra (Finistère)</h3>
+                        <p class="place-subtitle">La fin de la terre</p>
+                        <p class="place-description">
+                            Pour les Romains, c'était la fin du monde! Son coucher de soleil 
+                            spectaculaire attire des milliers de visiteurs chaque année. 
+                            Le phare marque la fin du Camiño dos Faros.
+                        </p>
+                        <div class="place-facts">
+                            <span>📍 km 200</span>
+                            <span>🌅 Sunsets célèbres</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="place-card" data-place="muxia">
+                    <div class="place-image" style="background: linear-gradient(135deg, #4d8aab, #5d9abb);">
+                        <span class="place-icon">⛪</span>
+                    </div>
+                    <div class="place-content">
+                        <h3>Muxía</h3>
+                        <p class="place-subtitle">Le sanctuaire marin</p>
+                        <p class="place-description">
+                            Village de pêcheurs avec le sanctuaire de la Virxe da Barca. 
+                            Selon la tradition jacobéenne, c'est ici que la Virgen 
+                            apparut à Santiago après son martyre.
+                        </p>
+                        <div class="place-facts">
+                            <span>⛪ Sanctuaire</span>
+                            <span>🐟 Tradition de pêche</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Unités Didactiques -->
+    <section id="unites" class="unites-section">
+        <div class="container">
+            <h2 class="section-title">📚 Nos unités didactiques</h2>
+            <p class="section-intro">
+                Explorez les 15 unités de notre programme pédagogique. Chaque unité développe 
+                des compétences linguistiques à travers le thème du Camiño dos Faros.
+            </p>
+
+            <div class="units-nav">
+                <button class="unit-nav-btn prev" aria-label="Unité précédente">←</button>
+                <div class="units-tabs-container">
+                    <div class="units-tabs" id="unitsTabs">
+                        <button class="unit-tab active" data-unit="1">UD1</button>
+                        <button class="unit-tab" data-unit="2">UD2</button>
+                        <button class="unit-tab" data-unit="3">UD3</button>
+                        <button class="unit-tab" data-unit="4">UD4</button>
+                        <button class="unit-tab" data-unit="5">UD5</button>
+                        <button class="unit-tab" data-unit="6">UD6</button>
+                        <button class="unit-tab" data-unit="7">UD7</button>
+                        <button class="unit-tab" data-unit="8">UD8</button>
+                        <button class="unit-tab" data-unit="9">UD9</button>
+                        <button class="unit-tab" data-unit="10">UD10</button>
+                        <button class="unit-tab" data-unit="11">UD11</button>
+                        <button class="unit-tab" data-unit="12">UD12</button>
+                        <button class="unit-tab" data-unit="13">UD13</button>
+                        <button class="unit-tab" data-unit="14">UD14</button>
+                        <button class="unit-tab" data-unit="15">UD15</button>
+                    </div>
+                </div>
+                <button class="unit-nav-btn next" aria-label="Unité suivante">→</button>
+            </div>
+
+            <!-- UD1 -->
+            <div class="unit-content active" id="unit-1">
+                <div class="unit-header">
+                    <div class="unit-title-area">
+                        <span class="unit-number">01</span>
+                        <div>
+                            <h3>Allumer le phare</h3>
+                            <p class="unit-subtitle">Présentations et premiers échanges maritimes</p>
+                        </div>
+                    </div>
+                    <span class="unit-level-badge">Niveau A2</span>
+                </div>
+
+                <div class="unit-theme">
+                    <span class="theme-icon">⚓</span>
+                    <p>Cette première unité introduit le projet d'échange à travers l'histoire des anciennes routes maritimes qui unissaient les côtes bretonnes et galiciennes.</p>
+                </div>
+
+                <div class="unit-vocabulary">
+                    <h4>📖 Vocabulaire clé</h4>
+                    <div class="vocab-cards">
+                        <div class="vocab-item">
+                            <span class="vocab-fr">s'appeler / je m'appelle</span>
+                            <span class="vocab-trans">llamarse</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">avoir ... ans</span>
+                            <span class="vocab-trans">tener ... años</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">habiter à / je住在</span>
+                            <span class="vocab-trans">vivir en</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">être élève de</span>
+                            <span class="vocab-trans">ser alumno de</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">aimer / ne pas aimer</span>
+                            <span class="vocab-trans">gustar / no gustar</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">faire du / de la</span>
+                            <span class="vocab-trans">practicar</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le phare</span>
+                            <span class="vocab-trans">el faro</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le bateau / naviguer</span>
+                            <span class="vocab-trans">barco / navegar</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="unit-context">
+                    <h4>📜 Contexte historique</h4>
+                    <div class="context-text">
+                        <p>Depuis des siècles, les côtes bretonnes et galiciennes sont liées par les routes maritimes de l'Atlantique. Les navires bretons apportaient des <strong>tissus</strong> en Galice et recevaient en échange du <strong>vin</strong> et du <strong>poisson</strong>.</p>
+                        <p>Le roman médiéval <em>Roman de Ponthus et Sidoine</em> raconte l'histoire d'un prince de Galice et d'une princesse de Bretagne. Cette légende cruzait la mer et unit les deux cultures!</p>
+                    </div>
+                </div>
+
+                <div class="unit-activities">
+                    <h4>🎯 Activités</h4>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">📖</span>
+                            <h5>Activité 1: Lecture - "Un navigateur breton"</h5>
+                        </div>
+                        <p>Lis le texte de présentation d'Yves, un élève français:</p>
+                        <div class="text-example">
+                            <p><em>"Bonjour, je m'appelle Yves Le Gall. J'ai 15 ans et j'habite à Douarnenez, en Bretagne. C'est une petite ville de pêcheurs près de la mer. Mon père est pêcheur et ma mère travaille dans une usine de conserves de sardines. J'aime naviguer sur les bateaux de mon père. Je fais de la voile le week-end. Je suis très content de participer à cet échange avec les élèves galiciens!"</em></p>
+                        </div>
+                        <div class="activity-questions">
+                            <p><strong>Questions de compréhension:</strong></p>
+                            <ol>
+                                <li>Comment s'appelle l'élève?</li>
+                                <li>Où habite-t-il?</li>
+                                <li>Que font ses parents?</li>
+                                <li>Qu'aime-t-il faire?</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">✍️</span>
+                            <h5>Activité 2: Écriture - "Ma carte d'identité"</h5>
+                        </div>
+                        <p>Crée ta propre carte d'identité. Utilise le modèle:</p>
+                        <div class="writing-model">
+                            <p>Bonjour! Je m'appelle <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>. J'ai <u>&nbsp;&nbsp;&nbsp;&nbsp;</u> ans. J'habite à <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>. Je suis élève au/à la <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>. J'aime <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>. Je ne suis pas fan de <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>. Je fais <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>.</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">🎬</span>
+                            <h5>Activité 3: Oral - "Deviens un navigateur!"</h5>
+                        </div>
+                        <p>Imagine que tu es un navigateur ou marchand atlantique. Enregistre une présentation:</p>
+                        <ul class="dialog-hints">
+                            <li>Présente-toi comme un navigateur historique</li>
+                            <li>Parle de ton village natal</li>
+                            <li>Explique ton métier sur les routes maritimes</li>
+                            <li>Raconte un voyage entre la Bretagne et la Galice</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="unit-final-activity">
+                    <h4>🏆 Activité finale: Guion de présentation comme navigateur</h4>
+                    <div class="final-activity-content">
+                        <p>Les élèves rédigeront un guion y grabarán una presentación asumiendo el papel de un navegante ou comerciante atlantique. Ils parleront des anciennes routes maritimes qui unissaient les deux côtes.</p>
+                        <div class="activity-criteria">
+                            <p><strong>Critères de réussite:</strong></p>
+                            <ul>
+                                <li>✅ Se présenter de manière claire (nom, âge, lieu)</li>
+                                <li>✅ Mentionner la profession et le lien avec la mer</li>
+                                <li>✅ Parler des échanges entre Bretagne et Galice</li>
+                                <li>✅ Utiliser le vocabulaire de l'unité</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="unit-link-project">
+                    <span class="link-icon">📎</span>
+                    <p><strong>Lien avec le projet final:</strong> Cette activité prépare la section "Présentation des auteurs" de votre guide de voyage numérique.</p>
+                </div>
+            </div>
+
+            <!-- UD2 -->
+            <div class="unit-content" id="unit-2">
+                <div class="unit-header">
+                    <div class="unit-title-area">
+                        <span class="unit-number">02</span>
+                        <div>
+                            <h3>Sur la carte du monde</h3>
+                            <p class="unit-subtitle">Création d'un minimapa comparatif</p>
+                        </div>
+                    </div>
+                    <span class="unit-level-badge">Niveau A2</span>
+                </div>
+
+                <div class="unit-theme">
+                    <span class="theme-icon">🗺️</span>
+                    <p>Découvrez la géographie de la Costa da Morte et comparez-la avec la côte bretonne atlantique.</p>
+                </div>
+
+                <div class="unit-vocabulary">
+                    <h4>📖 Vocabulaire clé</h4>
+                    <div class="vocab-cards">
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la côte / le littoral</span>
+                            <span class="vocab-trans">la costa</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la plage / le sable</span>
+                            <span class="vocab-trans">la playa / la arena</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la falaise / le rocher</span>
+                            <span class="vocab-trans">el acantilado / la roca</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le phare / le port</span>
+                            <span class="vocab-trans">el faro / el puerto</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la ría (Galice) / l'aber (Bretagne)</span>
+                            <span class="vocab-trans">ría / aber (rades)</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le cap / la pointe</span>
+                            <span class="vocab-trans">el cabo / la punta</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">l'océan / la mer</span>
+                            <span class="vocab-trans">el océano / el mar</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">au nord / au sud / à l'ouest</span>
+                            <span class="vocab-trans">al norte / al sur / al oeste</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="unit-context">
+                    <h4>📜 Contexte géographique</h4>
+                    <div class="context-text">
+                        <p>La Costa da Morte et la Bretagne sont deux régions atlantiques séparées par environ 1 200 km de mer. Pourtant, elles partagent beaucoup:</p>
+                        <ul>
+                            <li>Des <strong>côtes découpées</strong> avec des caps et des criques</li>
+                            <li>Les <strong>ría</strong>s galiciennes sont similaires aux <strong>aber</strong>s bretons (rades profonds)</li>
+                            <li>Toutes deux ont une forte tradition maritime</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="unit-activities">
+                    <h4>🎯 Activités</h4>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">📖</span>
+                            <h5>Activité 1: Lecture - "La carte de la Costa da Morte"</h5>
+                        </div>
+                        <p>Observe la description du littoral galicien:</p>
+                        <div class="text-example">
+                            <p><em>"La Costa da Morte est une côte dangereuse pour les navires. Elle commence à Malpica et finit à Muxía. Les falaises sont hautes et les courants sont forts. Les pêcheurs connaissent bien cette mer! Les rías sont des entrées de mer dans la terre. La ría de Corcubión est près de Fisterra. La ría de Muros et Noia est plus au nord. Les ports de ces rías sont protégés du vent."</em></p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">🗺️</span>
+                            <h5>Activité 2: Association géographique</h5>
+                        </div>
+                        <p>Relie chaque lieu galicien à sa description:</p>
+                        <div class="matching-activity">
+                            <div class="match-col">
+                                <p><strong>Lieux:</strong></p>
+                                <ul>
+                                    <li>1. Malpica</li>
+                                    <li>2. Fisterra</li>
+                                    <li>3. Cabo Finisterre</li>
+                                    <li>4. Muxía</li>
+                                    <li>5. Carnota</li>
+                                </ul>
+                            </div>
+                            <div class="match-col">
+                                <p><strong>Descriptions:</strong></p>
+                                <ul>
+                                    <li>A. La plage la plus longue</li>
+                                    <li>B. Le premier phare</li>
+                                    <li>C. Village de pêcheurs</li>
+                                    <li>D. Sanctuaire marin</li>
+                                    <li>E. Fin de la terre</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="unit-final-activity">
+                    <h4>🏆 Activité finale: Diseño de un mapa comparatif</h4>
+                    <div class="final-activity-content">
+                        <p>Diseña un mapa comparativo del littoral atlantique galego y breton. Añade etiquetas que comparen los accidentes geográficos.</p>
+                        <div class="activity-criteria">
+                            <p><strong>Éléments à inclure:</strong></p>
+                            <ul>
+                                <li>✅ Localisation des deux régions sur une carte</li>
+                                <li>✅ Comparaison: rías galiciennes ↔ abers bretons</li>
+                                <li>✅ Les principaux caps et plages</li>
+                                <li>✅ Les villes portuaires importantes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UD3 -->
+            <div class="unit-content" id="unit-3">
+                <div class="unit-header">
+                    <div class="unit-title-area">
+                        <span class="unit-number">03</span>
+                        <div>
+                            <h3>Regards sur notre territoire</h3>
+                            <p class="unit-subtitle">Los dos Finisterres - Exposición oral</p>
+                        </div>
+                    </div>
+                    <span class="unit-level-badge">Niveau A2-B1</span>
+                </div>
+
+                <div class="unit-theme">
+                    <span class="theme-icon">🏔️</span>
+                    <p>Explorez les caractéristiques communes des deux "finistères" européens: la Costa da Morte galicienne et la Bretagne armoricaine.</p>
+                </div>
+
+                <div class="unit-vocabulary">
+                    <h4>📖 Vocabulaire clé</h4>
+                    <div class="vocab-cards">
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le Finistère / Finisterre</span>
+                            <span class="vocab-trans">Fin de la terre</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la périphérie / être isolé(e)</span>
+                            <span class="vocab-trans">periferia / estar aislado</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le granit / le schiste</span>
+                            <span class="vocab-trans">granito / pizarra</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la lande / la bruyère</span>
+                            <span class="vocab-trans">brezal / tojo</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la tempête / la brume</span>
+                            <span class="vocab-trans">tormenta / niebla</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le climat océanique</span>
+                            <span class="vocab-trans">clima oceánico</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">paysage vert / vallonné</span>
+                            <span class="vocab-trans">paisaje verde / ondulado</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="unit-context">
+                    <h4>📜 Contexte: Les deux Finistères</h4>
+                    <div class="context-text">
+                        <p>La Galice et la Bretagne sont toutes deux situées à l'extrémité occidentale de l'Europe. Pour les anciens, ces terres étaient literalmente <strong>"la fin du monde"</strong>.</p>
+                        <p>Elles partagent:</p>
+                        <ul>
+                            <li>Un <strong>paysage verdoyant</strong> grâce aux pluies fréquentes</li>
+                            <li>Des <strong>sols de granit</strong> et des rochers caractéristiques</li>
+                            <li>Un <strong>climat océanique</strong> avec des tempêtes et des brumes</li>
+                            <li>Une impression d'<strong>isolement</strong> par rapport aux capitales</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="unit-activities">
+                    <h4>🎯 Activités</h4>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">📖</span>
+                            <h5>Activité 1: Lecture - "Vivir en el borde del mundo"</h5>
+                        </div>
+                        <div class="text-example">
+                            <p><em>"Nosotros vivimos en un territorio especial. Nuestra tierra está en el borde del mapa de Europa. Los romanos pensaban que aquí terminaba el mundo. Hoy, somos como una isla: estamos lejos de Madrid y de París. Pero tenemos algo único: la naturaleza. El verde de nuestras praderas, el gris de nuestro granito y el azul intenso del mar. Aquí las tormentas son fuertes, pero también tenemos lluvias que hacen crecer todo. Los paisajes son increíbles: pequeñas aldeas entre colinas verdes, pantai escondidas entre rocas... Es difícil, pero es hermoso."</em></p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">🖼️</span>
+                            <h5>Activité 2: Comparaison d'images</h5>
+                        </div>
+                        <p>Observe des photos de la Bretagne et de la Galice. Trouve les similarités:</p>
+                        <ul class="image-activities">
+                            <li>Les couleurs du paysage (vert, gris, bleu)</li>
+                            <li>Les maisons en pierre</li>
+                            <li>Les côtes rocheuses</li>
+                            <li>Le type de végétation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="unit-final-activity">
+                    <h4>🏆 Activité finale: Exposición "Los dos Finisterres"</h4>
+                    <div class="final-activity-content">
+                        <p>Los alumnos harán una exposición oral sobre la condición de ambos territorios como los dos finisterraes continentales europeos.</p>
+                        <div class="activity-criteria">
+                            <p><strong>Points à couvrir:</strong></p>
+                            <ul>
+                                <li>✅ Qu'est-ce que "Finistère" signifie?</li>
+                                <li>✅ Pourquoi ces deux régions sont similaires?</li>
+                                <li>✅ Le paysage: granit, vert, climat océanique</li>
+                                <li>✅ Les défis: être loin des capitales</li>
+                                <li>✅ Les avantages: nature, traditions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UD4 -->
+            <div class="unit-content" id="unit-4">
+                <div class="unit-header">
+                    <div class="unit-title-area">
+                        <span class="unit-number">04</span>
+                        <div>
+                            <h3>Là où la terre rencontre la mer</h3>
+                            <p class="unit-subtitle">Description illustrée d'un paysage</p>
+                        </div>
+                    </div>
+                    <span class="unit-level-badge">Niveau A2-B1</span>
+                </div>
+
+                <div class="unit-theme">
+                    <span class="theme-icon">🌊🌾</span>
+                    <p>Contrastez la furia del océano con la monotonía del paisaje agrario. Découvrez le bocage breton et le système des agras galiciennes.</p>
+                </div>
+
+                <div class="unit-vocabulary">
+                    <h4>📖 Vocabulaire clé</h4>
+                    <div class="vocab-cards">
+                        <div class="vocab-item">
+                            <span class="vocab-fr">l'océan / la vagues</span>
+                            <span class="vocab-trans">el océano / las olas</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la falaise / le rocher</span>
+                            <span class="vocab-trans">el acantilado / la roca</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le champ / la prairie</span>
+                            <span class="vocab-trans">el campo / la pradera</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la haie / le muret</span>
+                            <span class="vocab-trans">el seto / el murete</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le bocage (Bretagne)</span>
+                            <span class="vocab-trans">paisaje de campos cerrados</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">l'agra (Galice)</span>
+                            <span class="vocab-trans">campo cerrado con muros</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">furieux/se / calme</span>
+                            <span class="vocab-trans">furioso / tranquilo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="unit-context">
+                    <h4>📜 Contexte: Bocage et Agras</h4>
+                    <div class="context-text">
+                        <p><strong>En Bretagne:</strong> Le bocage est un paysage typique avec des champs entourés de haies et de murets de pierre. C'est un paysage verdoyant et protégé du vent.</p>
+                        <p><strong>En Galice:</strong> Le système des "agras" fonctionne de manière similaire: des parcelles fermées par des murs de pierre. Ce système permettait de cultiver la terre tout en protégeant les cultures du vent maritime.</p>
+                    </div>
+                </div>
+
+                <div class="unit-activities">
+                    <h4>🎯 Activités</h4>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">📖</span>
+                            <h5>Activité 1: Lecture descriptive</h5>
+                        </div>
+                        <div class="text-example">
+                            <p><em>"Desde el acantilado, veo dos paisajes diferentes. A mi izquierda, el mar está furioso. Las olas golpean las rocas con fuerza. El agua es gris y blanca. A mi derecha, el paisaje es tranquilo: campos verdes cercados por muros de piedra antigua. Las vacas pacen peacefully. Un pequeño pueblo aparece entre los árboles. Aquí, la tierra y el mar viven juntos. Es un lugar special."</em></p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">🎨</span>
+                            <h5>Activité 2: Dessine le paysage</h5>
+                        </div>
+                        <p>Crée un dessin de ton lieu préféré avec:</p>
+                        <ul>
+                            <li>Le элемент maritime (mer, falaise, phare)</li>
+                            <li>L'élément terrestre (champs, haies, villages)</li>
+                            <li>Des couleurs qui montrent le contraste</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="unit-final-activity">
+                    <h4>🏆 Activité finale: Texte ilustrado océano vs campo</h4>
+                    <div class="final-activity-content">
+                        <p>Redacta un texto que contraste la furia del océano con la tranquilidad del campo. Ilustra avec des images o dessins.</p>
+                        <div class="activity-criteria">
+                            <ul>
+                                <li>✅ Description de la côte (tempête, vagues, rochers)</li>
+                                <li>✅ Description de l'intérieur (champs, murets, agriculture)</li>
+                                <li>✅ Comparaison et transition entre les deux</li>
+                                <li>✅ Au moins 8 mots de vocabulaire</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UD5 -->
+            <div class="unit-content" id="unit-5">
+                <div class="unit-header">
+                    <div class="unit-title-area">
+                        <span class="unit-number">05</span>
+                        <div>
+                            <h3>Vivre entre mer et terre</h3>
+                            <p class="unit-subtitle">Description d'un mode de vie</p>
+                        </div>
+                    </div>
+                    <span class="unit-level-badge">Niveau A2-B1</span>
+                </div>
+
+                <div class="unit-theme">
+                    <span class="theme-icon">🐟🚜</span>
+                    <p>Découvrez le modèle socioeconómico híbrido: la pêche et l'agriculture comme base de la vie atlantique.</p>
+                </div>
+
+                <div class="unit-vocabulary">
+                    <h4>📖 Vocabulaire clé</h4>
+                    <div class="vocab-cards">
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le/la pêcheur (-euse)</span>
+                            <span class="vocab-trans">el/la pescador/a</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la conserverie / la sardine</span>
+                            <span class="vocab-trans">la conservera / la sardina</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le agriculteur (-trice)</span>
+                            <span class="vocab-trans">el/la agricultor/a</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">l'élevage / la vache</span>
+                            <span class="vocab-trans">la ganadería / la vaca</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">travailler dur / être fatigué(e)</span>
+                            <span class="vocab-trans">trabajar duro / estar cansado</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la mer / la terre</span>
+                            <span class="vocab-trans">el mar / la tierra</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="unit-context">
+                    <h4>📜 Contexte: Le travail en Atlantique</h4>
+                    <div class="context-text">
+                        <p>Dans les deux régions, les familles vivaient entre deux mondes:</p>
+                        <ul>
+                            <li><strong>La mer:</strong> La pêche (sardine en Galice, homard en Bretagne) et les conserveries</li>
+                            <li><strong>La terre:</strong> L'agriculture (légumes, céréales) et l'élevage (vaches pour le lait et la viande)</li>
+                        </ul>
+                        <p>Ports comme <strong>Vigo</strong> (Galice) ou <strong>Douarnenez</strong> (Bretagne) étaient synonymes de travail difficile mais vital.</p>
+                    </div>
+                </div>
+
+                <div class="unit-activities">
+                    <h4>🎯 Activités</h4>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">📖</span>
+                            <h5>Activité 1: Interview d'un pêcheur</h5>
+                        </div>
+                        <div class="text-example">
+                            <p><em>"Je m'appelle Manuel et je suis pêcheur depuis trente ans. Chaque jour, je me lève à quatre heures du matin. Noussortons au port à cinq heures. Le travail est dur: il faut préparer les filets, sortir en mer et revenir avec le poisson. Ma femme travaille à la conserverie. Nous travaillons beaucoup, mais nous aimons notre métier. Les jeunes ne veulent plus être pêcheurs, c'est triste."</em></p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">🎙️</span>
+                            <h5>Activité 2: Reportage audio</h5>
+                        </div>
+                        <p>En binôme, créez un mini-reportage:</p>
+                        <ul>
+                            <li>Un élève interviewe: "Parle-moi de ton métier"</li>
+                            <li>L'autre répond comme un pêcheur ou agriculteur</li>
+                            <li>Enregistrez et partagez avec la classe</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="unit-final-activity">
+                    <h4>🏆 Activité finale: Reportaje sobre pesca y agricultura</h4>
+                    <div class="final-activity-content">
+                        <p>Crea un reportaje sobre el modelo socioeconómico híbrido. Algunos hablarán de la pesca y las conserveras; otros, del trabajo campesino.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UD6 -->
+            <div class="unit-content" id="unit-6">
+                <div class="unit-header">
+                    <div class="unit-title-area">
+                        <span class="unit-number">06</span>
+                        <div>
+                            <h3>Protéger notre horizon</h3>
+                            <p class="unit-subtitle">Création d'un cartel écologique</p>
+                        </div>
+                    </div>
+                    <span class="unit-level-badge">Niveau A2-B1</span>
+                </div>
+
+                <div class="unit-theme">
+                    <span class="theme-icon">🌍</span>
+                    <p>Réflechissez à la protection du milieu marin, vital pour la survie des communautés atlantiques.</p>
+                </div>
+
+                <div class="unit-vocabulary">
+                    <h4>📖 Vocabulaire clé</h4>
+                    <div class="vocab-cards">
+                        <div class="vocab-item">
+                            <span class="vocab-fr">protéger / la protection</span>
+                            <span class="vocab-trans">proteger / la protección</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la pollution / polluer</span>
+                            <span class="vocab-trans">la contaminación / contaminar</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le plastique / les déchets</span>
+                            <span class="vocab-trans">el plástico / la basura</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">les resources marines</span>
+                            <span class="vocab-trans">los recursos marinos</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">pêche durable / respecter</span>
+                            <span class="vocab-trans">pesca sostenible / respetar</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">l'océan / la mer</span>
+                            <span class="vocab-trans">el océano / el mar</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="unit-context">
+                    <h4>📜 Contexte: La mer, source de vie</h4>
+                    <div class="context-text">
+                        <p>La survie des communautés de la Costa da Morte et de Bretagne dépend directement de la mer:</p>
+                        <ul>
+                            <li>La <strong>pêche</strong> nourrit les familles depuis des siècles</li>
+                            <li>Les <strong>conserves</strong> (sardine, thon) sont une tradition industrielle</li>
+                            <li>La <strong>gastronomie</strong> locale est basée sur les produits de la mer</li>
+                        </ul>
+                        <p>Mais la pollution et la surpêche menacent cet équilibre!</p>
+                    </div>
+                </div>
+
+                <div class="unit-activities">
+                    <h4>🎯 Activités</h4>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">📊</span>
+                            <h5>Activité 1: Analyse d'images</h5>
+                        </div>
+                        <p>Comparez deux images:</p>
+                        <ul>
+                            <li>Une plage propre vs une plage avec déchets</li>
+                            <li>Un océan plein de poissons vs un océan vide</li>
+                        </ul>
+                        <p>Qu'est-ce que vous observez? Quelles sont les conséquences?</p>
+                    </div>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">💬</span>
+                            <h5>Activité 2: Débat - "Pourquoi protéger la mer?"</h5>
+                        </div>
+                        <p>En groupe, discutez:</p>
+                        <ul>
+                            <li>Pourquoi la mer est-elle importante pour notre région?</li>
+                            <li>Quels sont les problèmes actuels?</li>
+                            <li>Que pouvons-nous faire?</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="unit-final-activity">
+                    <h4>🏆 Activité finale: Póster ecologista</h4>
+                    <div class="final-activity-content">
+                        <p>Diseña un póster para proteger el mar. Incluye:</p>
+                        <ul>
+                            <li>✅ Un mensaje clair et impactant</li>
+                            <li>✅ Des images ou dessins</li>
+                            <li>✅ Des informations sur les problèmes</li>
+                            <li>✅ Des solutions concrètes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UD7 -->
+            <div class="unit-content" id="unit-7">
+                <div class="unit-header">
+                    <div class="unit-title-area">
+                        <span class="unit-number">07</span>
+                        <div>
+                            <h3>Vivre ensemble</h3>
+                            <p class="unit-subtitle">Débat guidée sur la vie en société</p>
+                        </div>
+                    </div>
+                    <span class="unit-level-badge">Niveau B1</span>
+                </div>
+
+                <div class="unit-theme">
+                    <span class="theme-icon">🏘️</span>
+                    <p>Découvrez comment l'organisation spatiale influence le caractère d'un peuple. La vie dispersée en aldeas et la importancia de la parroquia.</p>
+                </div>
+
+                <div class="unit-vocabulary">
+                    <h4>📖 Vocabulaire clé</h4>
+                    <div class="vocab-cards">
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le village / l aldea</span>
+                            <span class="vocab-trans">el pueblo / la aldea</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">dispersé(e) / isolé(e)</span>
+                            <span class="vocab-trans">dispersado / aislado</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la parroquia (Galice) / la commune</span>
+                            <span class="vocab-trans">parroquia / comune</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">l'église / le.curé</span>
+                            <span class="vocab-trans">la iglesia / el cura</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la communauté / les voisins</span>
+                            <span class="vocab-trans">la comunidad / los vecinos</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">s'entraider / la solidarité</span>
+                            <span class="vocab-trans">ayudarse / la solidaridad</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="unit-context">
+                    <h4>📜 Contexte: Habitat dispersé</h4>
+                    <div class="context-text">
+                        <p>En Galice et en Bretagne, l'habitat est extrêmement dispersé:</p>
+                        <ul>
+                            <li><strong>Galice:</strong> Des milliers d'aldeas (petits hameaux) avec quelques maisons, souvent éloignés les uns des autres</li>
+                            <li><strong>Bretagne:</strong> De nombreux petits villages séparés par la campagne</li>
+                        </ul>
+                        <p>Historiquement, seule la <strong>paroisse</strong> (et son église) donnait une structure à cette dispersion. Le curé était souvent le seul "officiel" du village!</p>
+                    </div>
+                </div>
+
+                <div class="unit-activities">
+                    <h4>🎯 Activités</h4>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">📖</span>
+                            <h5>Activité 1: Texte sur la vie paroissiale</h5>
+                        </div>
+                        <div class="text-example">
+                            <p><em>"Notre village est très petit. Il y a seulement dix maisons et une église. Le curé vient une fois par semaine. Nous allons à la messe le dimanche. Après la messe, nous parlons avec les voisins. C'est le seul moment où nous nous voyons tous. Les autres jours, nous travaillons chacun dans notre maison. Ici, tout le monde se connaît. Si quelqu'un a un problème, les voisins aident. C'est ça, la vie à la campagne."</em></p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">🤔</span>
+                            <h5>Activité 2: Comparaison avec ma vie</h5>
+                        </div>
+                        <p>Comparez:</p>
+                        <table class="comparison-table">
+                            <tr>
+                                <th>Ma vie</th>
+                                <th>La vie au village</th>
+                            </tr>
+                            <tr>
+                                <td>Vitesse de la vie?</td>
+                                <td>Lente, calme</td>
+                            </tr>
+                            <tr>
+                                <td>Contact avec les voisins?</td>
+                                <td>Fréquent à l'église</td>
+                            </tr>
+                            <tr>
+                                <td>Travail?</td>
+                                <td>Agriculture, pêche</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="unit-final-activity">
+                    <h4>🏆 Activité finale: Débat organisé</h4>
+                    <div class="final-activity-content">
+                        <p>Debatid sobre cómo la organización espacial afeta al caratter de un pueblo. Comparad:</p>
+                        <ul>
+                            <li>✅ L'habitat dispersé des deux régions</li>
+                            <li>✅ Le rôle de la parroquia/commune</li>
+                            <li>✅ Les avantages et inconvénients</li>
+                            <li>✅ Ce qui a changé aujourd'hui</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UD8 -->
+            <div class="unit-content" id="unit-8">
+                <div class="unit-header">
+                    <div class="unit-title-area">
+                        <span class="unit-number">08</span>
+                        <div>
+                            <h3>Citoyens du monde</h3>
+                            <p class="unit-subtitle">Presentación oral sobre el compromiso ciudadano</p>
+                        </div>
+                    </div>
+                    <span class="unit-level-badge">Niveau B1</span>
+                </div>
+
+                <div class="unit-theme">
+                    <span class="theme-icon">✊</span>
+                    <p>Découvrez comment les citoyens se sont mobilisés pour défendre leur culture face aux États centralisateurs.</p>
+                </div>
+
+                <div class="unit-vocabulary">
+                    <h4>📖 Vocabulaire clé</h4>
+                    <div class="vocab-cards">
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la résistance / résister</span>
+                            <span class="vocab-trans">la resistencia / resistir</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le mouvement / militer</span>
+                            <span class="vocab-trans">el movimiento / militar</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la culture / la identité</span>
+                            <span class="vocab-trans">la cultura / la identidad</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">centralisateur (-trice)</span>
+                            <span class="vocab-trans">centralizador</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">l'emsav (Bretagne)</span>
+                            <span class="vocab-trans">movimiento breton</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le movement galeguiste</span>
+                            <span class="vocab-trans">movimiento galleguista</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="unit-context">
+                    <h4>📜 Contexte: Mouvements culturels</h4>
+                    <div class="context-text">
+                        <p><strong>En Bretagne:</strong> L'<em>emsav</em> est le nom du mouvement culturel et politique breton. Né au XIXe siècle, il défendait la langue, les traditions et l'identité bretonne face à la centralisation française.</p>
+                        <p><strong>En Galice:</strong> Le <em>movimiento galeguista</em> (xenerealismo) a émergé au XIXe siècle pour valoriser la langue galicienne et la culture propre de la région face à l'État espagnol centralisateur.</p>
+                    </div>
+                </div>
+
+                <div class="unit-activities">
+                    <h4>🎯 Activités</h4>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">📖</span>
+                            <h5>Activité 1: Recherche en binômes</h5>
+                        </div>
+                        <p>Chaque binôme prépare une présentation sur:</p>
+                        <ul>
+                            <li>Les raisons de ces mouvements</li>
+                            <li>Les actions réalisées</li>
+                            <li>La situation actuelle</li>
+                        </ul>
+                    </div>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">🔗</span>
+                            <h5>Activité 2: Trouver les similarités</h5>
+                        </div>
+                        <p>Comparez les deux mouvements:</p>
+                        <ul>
+                            <li>Quels étaient leurs objectifs?</li>
+                            <li>Comment étaient-ils perçus par l'État?</li>
+                            <li>Que peut-on apprendre de leur histoire?</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="unit-final-activity">
+                    <h4>🏆 Activité finale: Exposición sobre resistencia cultural</h4>
+                    <div class="final-activity-content">
+                        <p>Expón cómo los ciudadanos de ambas regiones se mobilizaron para defender su particularité culturelle.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UD9 -->
+            <div class="unit-content" id="unit-9">
+                <div class="unit-header">
+                    <div class="unit-title-area">
+                        <span class="unit-number">09</span>
+                        <div>
+                            <h3>Agir pour demain</h3>
+                            <p class="unit-subtitle">Podcast en defensa del patrimonio lingüístico</p>
+                        </div>
+                    </div>
+                    <span class="unit-level-badge">Niveau B1</span>
+                </div>
+
+                <div class="unit-theme">
+                    <span class="theme-icon">🗣️</span>
+                    <p>Défendez le patrimoine linguistique: le breton et le galicien comme langues de culture.</p>
+                </div>
+
+                <div class="unit-vocabulary">
+                    <h4>📖 Vocabulaire clé</h4>
+                    <div class="vocab-cards">
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la langue / le dialecte</span>
+                            <span class="vocab-trans">la lengua / el dialecto</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">parler / communiquer</span>
+                            <span class="vocab-trans">hablar / comunicar</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la discrimination / être discriminé(e)</span>
+                            <span class="vocab-trans">la discriminación</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">l'estigmatisation / avoir honte</span>
+                            <span class="vocab-trans">estigmatización / tener vergüenza</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">revendiquer / défendre</span>
+                            <span class="vocab-trans">reivindicar / defender</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la dignité / être fier (-ère)</span>
+                            <span class="vocab-trans">la dignidad / estar orgulloso</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="unit-context">
+                    <h4>📜 Contexte: Langues sous stigmatisation</h4>
+                    <div class="context-text">
+                        <p>Le breton et le galicien ont souffert de discrimination:</p>
+                        <ul>
+                            <li>Dans les écoles, seule le français/espagnol était autorisée</li>
+                            <li>Les enfants étaient punis s'ils parlaient leur langue maternelle</li>
+                            <li>Beaucoups avaient "honte" de leurs langues</li>
+                        </ul>
+                        <p>Aujourd'hui, ces langues sont reconnues et revitalisées!</p>
+                    </div>
+                </div>
+
+                <div class="unit-activities">
+                    <h4>🎯 Activités</h4>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">📖</span>
+                            <h5>Activité 1: Témoignages</h5>
+                        </div>
+                        <div class="text-example">
+                            <p><em>"Quand j'étais petit, à l'école, le maître disait: 'En France, on parle français!' Si nous parlions breton avec nos amis, nous étions punis. Ma grand-mère me disait: 'Ne parle pas breton, c'est une langue de paysans.' J'avais honte. Mais aujourd'hui, je suis fier de ma langue. C'est notre identité."</em></p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">🎙️</span>
+                            <h5>Activité 2: Preparation du podcast</h5>
+                        </div>
+                        <p>Préparez le script de votre podcast:</p>
+                        <ul>
+                            <li>Introduction: "Bonjour, nous parlons de..."</li>
+                            <li>Explication du problème historique</li>
+                            <li>Message de défense et de fierté</li>
+                            <li>Conclusion: "Parlez vos langues!"</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="unit-final-activity">
+                    <h4>🏆 Activité finale: Grabación de podcast</h4>
+                    <div class="final-activity-content">
+                        <p>Grabad un podcast defendiendo el patrimonio lingüístico. El mensaje denunciará cómo el bretón y el gallego sufrieron estigmatización.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UD10 -->
+            <div class="unit-content" id="unit-10">
+                <div class="unit-header">
+                    <div class="unit-title-area">
+                        <span class="unit-number">10</span>
+                        <div>
+                            <h3>Voix et regards artistiques</h3>
+                            <p class="unit-subtitle">Présentation d'art en pierre: calvaires et cruceiros</p>
+                        </div>
+                    </div>
+                    <span class="unit-level-badge">Niveau B1</span>
+                </div>
+
+                <div class="unit-theme">
+                    <span class="theme-icon">🗿</span>
+                    <p>Découvrez l'art en pierre caractéristique de la piété populaire atlantique: calvaires bretons et cruceiros galiciens.</p>
+                </div>
+
+                <div class="unit-vocabulary">
+                    <h4>📖 Vocabulaire clé</h4>
+                    <div class="vocab-cards">
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le calvaire (Bretagne)</span>
+                            <span class="vocab-trans">monumento con cruz y figuras</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le cruceiro (Galice)</span>
+                            <span class="vocab-trans">cruz monumental</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la pierre / sculpté</span>
+                            <span class="vocab-trans">piedra / esculpido</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la croix / le Christ</span>
+                            <span class="vocab-trans">la cruz / Cristo</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la foi / la dévotion</span>
+                            <span class="vocab-trans">la fe / la devoción</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">monumental / impressionnant(e)</span>
+                            <span class="vocab-trans">monumental / impresionante</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="unit-context">
+                    <h4>📜 Contexte: Art populaire atlantique</h4>
+                    <div class="context-text">
+                        <p>Les calvaires bretons et les cruceiros galiciens sont des monuments en pierre qui expriment la foi populaire:</p>
+                        <ul>
+                            <li><strong>Calvaires bretons:</strong> Grandioses, avec souvent de nombreuses figures (Christ, Marie, saints). L'enclos paroissial de Saint-Thégonnec est un exemple célèbre.</li>
+                            <li><strong>Cruceiros galiciens:</strong> Croix sculptées souvent devant les églises, parfois avec un toit protecteur. Ils guidaient les pèlerins.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="unit-activities">
+                    <h4>🎯 Activités</h4>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">🖼️</span>
+                            <h5>Activité 1: Analyse d'images</h5>
+                        </div>
+                        <p>Observez des photos de calvaires et cruceiros:</p>
+                        <ul>
+                            <li>Quelle est leur taille?</li>
+                            <li>Quelles figures voyez-vous?</li>
+                            <li>Où sont-ils placés?</li>
+                            <li>Qu'est-ce qu'ils représentent?</li>
+                        </ul>
+                    </div>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">✏️</span>
+                            <h5>Activité 2: Description artistique</h5>
+                        </div>
+                        <p>Rédigez une description de l'un de ces monuments:</p>
+                        <ul>
+                            <li>Les matériaux utilisés</li>
+                            <li>Les symboles et figures</li>
+                            <li>Le contexte historique</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="unit-final-activity">
+                    <h4>🏆 Activité finale: Présentation visuelle comparée</h4>
+                    <div class="final-activity-content">
+                        <p>Présentez imágenes para comparer la monumentalidad y el significado de los calvaires bretons et des cruceiros galiciens.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UD11 -->
+            <div class="unit-content" id="unit-11">
+                <div class="unit-header">
+                    <div class="unit-title-area">
+                        <span class="unit-number">11</span>
+                        <div>
+                            <h3>Histoires de mer et de mémoire</h3>
+                            <p class="unit-subtitle">Artículo sobre la hermandad intercéltica</p>
+                        </div>
+                    </div>
+                    <span class="unit-level-badge">Niveau B1</span>
+                </div>
+
+                <div class="unit-theme">
+                    <span class="theme-icon">🎵</span>
+                    <p>Découvrez la musique traditionnelle comme lien entre les cultures celtiques de Galice et de Bretagne.</p>
+                </div>
+
+                <div class="unit-vocabulary">
+                    <h4>📖 Vocabulaire clé</h4>
+                    <div class="vocab-cards">
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la gaita gallega</span>
+                            <span class="vocab-trans">gaita gallega (cornemuse)</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le biniou (Bretagne)</span>
+                            <span class="vocab-trans">biniou (cornemuse bretonne)</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la bombarde / le biniou-kozh</span>
+                            <span class="vocab-trans">bombarde / biniou-kozh</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le festival / le fest-noz</span>
+                            <span class="vocab-trans">el festival / fest-noz</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">interceltique / celte</span>
+                            <span name="vocab-trans">interceltico / celta</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la musique traditionnelle</span>
+                            <span class="vocab-trans">música tradicional</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="unit-context">
+                    <h4>📜 Contexte: Lien interceltique</h4>
+                    <div class="context-text">
+                        <p>Galice et Bretagne partagent des racines celtiques. La musique traditionnelle est le preuve vivante de ce lien:</p>
+                        <ul>
+                            <li><strong>Gaita gallega:</strong> Cornemuse traditionnelle galicienne, utilisée dans les fêtes et festivals</li>
+                            <li><strong>Biniou:</strong> Cornemuse bretonne, souvent accompagnée de la bombarde</li>
+                            <li><strong>Festivals interceltiques:</strong> De Lorient (Bretagne) à Ortigueira (Galice), ces festivals réunissent les peuples celtiques</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="unit-activities">
+                    <h4>🎯 Activités</h4>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">🎧</span>
+                            <h5>Activité 1: Écoute comparative</h5>
+                        </div>
+                        <p>Écoutez des extraits de musique galicienne et bretonne:</p>
+                        <ul>
+                            <li>Quelles sont les similarités?</li>
+                            <li>Quels instruments reconnaissez-vous?</li>
+                            <li>Comment vous sentez-vous en écoutant?</li>
+                        </ul>
+                    </div>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">📝</span>
+                            <h5>Activité 2: Recherche sur les festivals</h5>
+                        </div>
+                        <p>Trouvez des informations sur:</p>
+                        <ul>
+                            <li>Le Festival Interceltique de Lorient</li>
+                            <li>Le Festival de Ortigueira</li>
+                            <li>Quand ont-ils lieu? Qu'est-ce qu'on y fait?</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="unit-final-activity">
+                    <h4>🏆 Activité finale: Artículo sobre música y festivales</h4>
+                    <div class="final-activity-content">
+                        <p>Escribid un artículo sobre la hermandad intercéltica a través de la música. Explicad cómo la gaita y el biniou sirven como nexo de unión.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UD12 -->
+            <div class="unit-content" id="unit-12">
+                <div class="unit-header">
+                    <div class="unit-title-area">
+                        <span class="unit-number">12</span>
+                        <div>
+                            <h3>Raconter pour ne pas oublier</h3>
+                            <p class="unit-subtitle">Leyenda: Santa Compaña + Ankou</p>
+                        </div>
+                    </div>
+                    <span class="unit-level-badge">Niveau B1</span>
+                </div>
+
+                <div class="unit-theme">
+                    <span class="theme-icon">👻</span>
+                    <p>Explorez la profonde "cultura de la muerte" que une les deux régions à travers leurs légendes.</p>
+                </div>
+
+                <div class="unit-vocabulary">
+                    <h4>📖 Vocabulaire clé</h4>
+                    <div class="vocab-cards">
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la légende / le conte</span>
+                            <span class="vocab-trans">la leyenda / el cuento</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">l'âme / l'esprit</span>
+                            <span class="vocab-trans">el alma / el espíritu</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la mort / mourir</span>
+                            <span class="vocab-trans">la muerte / morir</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la Santa Compaña (Galice)</span>
+                            <span class="vocab-trans">compagnie des morts</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">l'Ankou (Bretagne)</span>
+                            <span class="vocab-trans">personnification de la mort</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le cimetière / la nuit</span>
+                            <span class="vocab-trans">el cementerio / la noche</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="unit-context">
+                    <h4>📜 Contexte: Cultures de la mort</h4>
+                    <div class="context-text">
+                        <p>Les deux régions partagent une relation particulière avec la mort, visible dans leurs légendes:</p>
+                        <ul>
+                            <li><strong>Santa Compaña (Galice):</strong> Procession nocturne de morts qui traversent les chemins. Si vous les voyez, vous devez prier pour eux!</li>
+                            <li><strong>Ankou (Bretagne):</strong> Figure squelettique qui vient chercher les morts. Il circule dans une charrette...</li>
+                        </ul>
+                        <p>Ces légendes reflètent une culture où la mort fait partie de la vie quotidienne.</p>
+                    </div>
+                </div>
+
+                <div class="unit-activities">
+                    <h4>🎯 Activités</h4>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">📖</span>
+                            <h5>Activité 1: Lecture des légendes</h5>
+                        </div>
+                        <div class="text-example">
+                            <p><em>"L'Ankou est la mort elle-même en Bretagne. Il voyage dans une petite charrette avec une roue qui grince. Quand il s'arrête devant une maison, c'est qu'un habitant va mourir. Les Bretons disent: 'L'Ankou ne se trompe jamais.' Personne ne peut lui échapper."</em></p>
+                        </div>
+                    </div>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">🎨</span>
+                            <h5>Activité 2: Illustration de légende</h5>
+                        </div>
+                        <p>Créez une illustration pour l'une des légendes:</p>
+                        <ul>
+                            <li>Choisissez Santa Compaña ou Ankou</li>
+                            <li>Décrivez la scène en français</li>
+                            <li>Racontez ce qui se passe</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="unit-final-activity">
+                    <h4>🏆 Activité finale: Inventer una leyenda fusionada</h4>
+                    <div class="final-activity-content">
+                        <p>Inventad y narrad una leyenda fusionnant le folklore de la Santa Compaña galicienne avec l'Ankou breton. ¡Combinad les deux!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UD13 -->
+            <div class="unit-content" id="unit-13">
+                <div class="unit-header">
+                    <div class="unit-title-area">
+                        <span class="unit-number">13</span>
+                        <div>
+                            <h3>Pages et écrans</h3>
+                            <p class="unit-subtitle">Reseña: La Nueve y Antonio Cariño López</p>
+                        </div>
+                    </div>
+                    <span class="unit-level-badge">Niveau B1</span>
+                </div>
+
+                <div class="unit-theme">
+                    <span class="theme-icon">📚</span>
+                    <p>Découvrez l'histoire de La Nueve, compañía de exiliados republicanos gallegos que liberación París.</p>
+                </div>
+
+                <div class="unit-vocabulary">
+                    <h4>📖 Vocabulaire clé</h4>
+                    <div class="vocab-cards">
+                        <div class="vocab-item">
+                            <span class="vocab-fr">l'exil / s'exiler</span>
+                            <span class="vocab-trans">el exilio / exiliarse</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la résistance / résister</span>
+                            <span class="vocab-trans">la resistencia / resistir</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">libérer / la libération</span>
+                            <span class="vocab-trans">liberar / la liberación</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la guerre / la paix</span>
+                            <span class="vocab-trans">la guerra / la paz</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le réfugié / l'occupant</span>
+                            <span class="vocab-trans">el refugiado / el ocupante</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le BD / la reseña</span>
+                            <span class="vocab-trans">el cómic / la reseña</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="unit-context">
+                    <h4>📜 Contexte: La Nueve et Los surcos del azar</h4>
+                    <div class="context-text">
+                        <p><strong>La Nueve:</strong> Compagnie de la 2ème Division Blindée française composée principalement d'exiliés républicains espagnols. Le 24 août 1944, ils furent les premiers à entrer dans Paris pour le libérer!</p>
+                        <p><strong>Los surcos del azar:</strong> BD de Paco Roca narrant l'histoire de ces soldats oubliés. Juan Aguiño, pêcheur galicien de Cedeira, fut l'un d'eux. Après la défaite républicaine, il s'échappa par les ports bretons (Concarneau) pour continuer la lutte.</p>
+                        <p><strong>Antonio Cariño López:</strong> Anarquiste ourenseur gallègue qui libéra París avec ses camarades et alla jusqu'au repaire de Hitler.</p>
+                    </div>
+                </div>
+
+                <div class="unit-activities">
+                    <h4>🎯 Activités</h4>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">📖</span>
+                            <h5>Activité 1: Lecture d'extraits</h5>
+                        </div>
+                        <p>Lisez des extraits de "Los surcos del azar" et discutez:</p>
+                        <ul>
+                            <li>Qui étaient ces hommes?</li>
+                            <li>Pourquoi se sont-ils battus?</li>
+                            <li>Qu'est-ce qu'on oublie souvent?</li>
+                        </ul>
+                    </div>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">🎬</span>
+                            <h5>Activité 2: Recherche sur La Nueve</h5>
+                        </div>
+                        <p>Trouvez des informations sur:</p>
+                        <ul>
+                            <li>Combien d'Espagnols dans La Nueve?</li>
+                            <li>Quel rôle ont-ils joué?</li>
+                            <li>Pourquoi les a-t-on oubliés?</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="unit-final-activity">
+                    <h4>🏆 Activité finale: Reseña crítica de "Los surcos del azar"</h4>
+                    <div class="final-activity-content">
+                        <p>Escribid una reseña crítica del cómic, conectando con la historia de La Nueve y los exiliados gallegos que pasaron por puertos bretones.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UD14 -->
+            <div class="unit-content" id="unit-14">
+                <div class="unit-header">
+                    <div class="unit-title-area">
+                        <span class="unit-number">14</span>
+                        <div>
+                            <h3>Destins et héritages</h3>
+                            <p class="unit-subtitle">Biografía: Julio Verne</p>
+                        </div>
+                    </div>
+                    <span class="unit-level-badge">Niveau B1</span>
+                </div>
+
+                <div class="unit-theme">
+                    <span class="theme-icon">🚀</span>
+                    <p>Découvrez Julio Verne, símbolo del espíritu aventurero y oceánico, nacido en Nantes.</p>
+                </div>
+
+                <div class="unit-vocabulary">
+                    <h4>📖 Vocabulaire clé</h4>
+                    <div class="vocab-cards">
+                        <div class="vocab-item">
+                            <span class="vocab-fr">l'aventure / adventurous (-euse)</span>
+                            <span class="vocab-trans">la aventura / aventurero</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le voyage / voyager</span>
+                            <span class="vocab-trans">el viaje / viajar</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le roman / l'écrivain</span>
+                            <span class="vocab-trans">la novela / el escritor</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">le port / le commerce</span>
+                            <span class="vocab-trans">el puerto / el comercio</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">la mer / l'océan</span>
+                            <span class="vocab-trans">el mar / el océano</span>
+                        </div>
+                        <div class="vocab-item">
+                            <span class="vocab-fr">prédire / imaginer</span>
+                            <span class="vocab-trans">predecir / imaginar</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="unit-context">
+                    <h4>📜 Contexte: Julio Verne et Nantes</h4>
+                    <div class="context-text">
+                        <p><strong>Julio Verne (1828-1905):</strong> Écrivain français célèbre pour "Vingt mille lieues sous les mers" et "Le tour du monde en 80 jours". Il est né à <strong>Nantes</strong>, grand puerto comercial breton.</p>
+                        <p>Nantes était historiquement une ville clé du comercio marítimo entre la Bretagne et la Península Ibérica. Les navires partaient de Nantes vers la Galice et retour...</p>
+                        <p>Verne a décrit l'océan comme personne, anticipant des inventions comme le submarine et l'helicopter!</p>
+                    </div>
+                </div>
+
+                <div class="unit-activities">
+                    <h4>🎯 Activités</h4>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">📖</span>
+                            <h5>Activité 1: Biographie rapide</h5>
+                        </div>
+                        <p>Lisez la biographie de Julio Verne:</p>
+                        <div class="timeline-activity">
+                            <div class="timeline-event">
+                                <span class="year">1828</span>
+                                <span class="event">Naît à Nantes</span>
+                            </div>
+                            <div class="timeline-event">
+                                <span class="year">1863</span>
+                                <span class="event">Premier roman: "Cinq semaines en ballon"</span>
+                            </div>
+                            <div class="timeline-event">
+                                <span class="year">1866</span>
+                                <span class="event">"Vingt mille lieues sous les mers"</span>
+                            </div>
+                            <div class="timeline-event">
+                                <span class="year">1905</span>
+                                <span class="event">Mort à Amiens</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <span class="activity-icon">📚</span>
+                            <h5>Activité 2: Quel roman choisir?</h5>
+                        </div>
+                        <p>Découvrez les romans de Verne:</p>
+                        <ul>
+                            <li>Le tour du monde en 80 jours</li>
+                            <li>Vingt mille lieues sous les mers</li>
+                            <li>De la Terre à la Lune</li>
+                            <li>L'Île mystérieuse</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="unit-final-activity">
+                    <h4>🏆 Activité finale: Biographie de Julio Verne</h4>
+                    <div class="final-activity-content">
+                        <p>Redactad la biographie de Julio Verne como símbolo del espíritu aventurero y oceánico, nacido en Nantes, puerto связи con la route commerciale hacia Galicia.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UD15 -->
+            <div class="unit-content" id="unit-15">
+                <div class="unit-header unit-header-final">
+                    <div class="unit-title-area">
+                        <span class="unit-number">15</span>
+                        <div>
+                            <h3>Un phare pour les autres</h3>
+                            <p class="unit-subtitle">Création de la guía turística final</p>
+                        </div>
+                    </div>
+                    <span class="unit-level-badge">Niveau A2-B1</span>
+                    <span class="final-badge">🏆 Projet final!</span>
+                </div>
+
+                <div class="unit-theme">
+                    <span class="theme-icon">🎯</span>
+                    <p>Créez la guía turística definitiva que promotionne les routes historiques entre Galice et Bretagne!</p>
+                </div>
+
+                <div class="unit-context">
+                    <h4>📜 Contexte: Routes qui unissent</h4>
+                    <div class="context-text">
+                        <p>Les routes historiques qui ont lié la Bretagne et la Galice:</p>
+                        <ul>
+                            <li><strong>Le Camino de Santiago:</strong> Depuis le Moyen Âge, des pèlerins bretons traversaient la mer pour venir en Galice. Beaucoup s'installèrent!</li>
+                            <li><strong>Les échanges maritimes:</strong> Tissus bretons contre vins et poissons galiciens</li>
+                            <li><strong>Festivales interceltiques:</strong> Aujourd'hui, Lorient et Ortigueira accueillent des groupes des deux régions</li>
+                        </ul>
+                        <p>Votre guide doit promouvoir ces liens!</p>
+                    </div>
+                </div>
+
+                <div class="unit-final-project">
+                    <h4>🏆 Projet final: Guía turística digital</h4>
+                    
+                    <div class="project-structure">
+                        <h5>📚 Structure obligatoire du guide:</h5>
+                        <div class="structure-grid">
+                            <div class="structure-section">
+                                <span class="section-num">1</span>
+                                <h6>Bienvenue en Costa da Morte!</h6>
+                                <p>Introduction générale, carte, pourquoi visiter</p>
+                            </div>
+                            <div class="structure-section">
+                                <span class="section-num">2</span>
+                                <h6>Les lieux essentiels</h6>
+                                <p>Phares, plages, villages avec photos et descriptions</p>
+                            </div>
+                            <div class="structure-section">
+                                <span class="section-num">3</span>
+                                <h6>La gastronomie</h6>
+                                <p>Plats typiques, restaurants, marchés locaux</p>
+                            </div>
+                            <div class="structure-section">
+                                <span class="section-num">4</span>
+                                <h6>Les activités</h6>
+                                <p>Randonnée, plages, sports nautiques, culture</p>
+                            </div>
+                            <div class="structure-section">
+                                <span class="section-num">5</span>
+                                <h6>Lien Bretagne-Galice</h6>
+                                <p>Historia común, intercambios, parallèle</p>
+                            </div>
+                            <div class="structure-section">
+                                <span class="section-num">6</span>
+                                <h6>Infos pratiques</h6>
+                                <p>Comment y aller, où dormir, transports</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-criteria">
+                        <h5>✅ Critères de réussite:</h5>
+                        <ul>
+                            <li>Au moins 500 mots en français</li>
+                            <li>Au moins 10 photos ou images</li>
+                            <li>Vocabulaire varié (au moins 30 mots nouveaux)</li>
+                            <li>Structure claire avec titres</li>
+                            <li>Lien avec le projet d'échange (partie 5)</li>
+                            <li>Format digital (Canva, Genially, blog...)</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-timeline">
+                        <h5>📅 Calendrier de travail:</h5>
+                        <div class="timeline-phases">
+                            <div class="phase">
+                                <h6>Phase 1: Recherche</h6>
+                                <p>Janvier-Février: Collecter infos et images</p>
+                            </div>
+                            <div class="phase">
+                                <h6>Phase 2: Rédaction</h6>
+                                <p>Mars-Avril: Écrire les textes</p>
+                            </div>
+                            <div class="phase">
+                                <h6>Phase 3: Création</h6>
+                                <p>Mai-Juin: Assembler le guide final</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="unit-examples">
+                    <h4>✨ Exemples de productions précédentes</h4>
+                    <div class="example-cards">
+                        <div class="example-item">
+                            <span class="example-icon">📄</span>
+                            <p>Guide numérique créé avec Canva</p>
+                        </div>
+                        <div class="example-item">
+                            <span class="example-icon">🎬</span>
+                            <p>Vidéo de présentation sur Fisterra</p>
+                        </div>
+                        <div class="example-item">
+                            <span class="example-icon">📱</span>
+                            <p>Page web interactive avec Genially</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Blog des élèves -->
+    <section id="blog" class="blog-section">
+        <div class="container">
+            <h2 class="section-title">✍️ Blog des élèves</h2>
+            <p class="section-intro">
+                Bienvenue dans notre espace de publication! Lisez les productions de vos camarades 
+                et partagez vos propres textes.
+            </p>
+
+            <div class="blog-actions">
+                <button class="btn-primary" onclick="openModal('publish')">
+                    <span>📝</span> Publier un texte
+                </button>
+                <div class="blog-filters">
+                    <select class="filter-select" id="blogFilter">
+                        <option value="all">Tous les textes</option>
+                        <option value="lieux">Descriptions de lieux</option>
+                        <option value="culture">Textes culturels</option>
+                        <option value="dialogues">Dialogues</option>
+                        <option value="legendes">Légendes</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="blog-grid">
+                <article class="blog-card" data-category="lieux">
+                    <div class="blog-author">
+                        <div class="author-avatar" style="background: #e74c3c;">MC</div>
+                        <div class="author-info">
+                            <span class="author-name">María C.</span>
+                            <span class="post-date">15 janvier 2026</span>
+                        </div>
+                    </div>
+                    <h3>Mon village: Fisterra</h3>
+                    <p class="blog-excerpt">
+                        Fisterra est un petit village de pêcheurs situé à l'extrémité ouest de la Costa da Morte. Quand on arrive, la première chose qu'on voit, c'est le grand phare qui dominate la mer...
+                    </p>
+                    <div class="blog-tags">
+                        <span class="tag">Description</span>
+                        <span class="tag">Fisterra</span>
+                    </div>
+                    <div class="blog-reactions">
+                        <button class="reaction-btn">❤️ 12</button>
+                        <button class="reaction-btn">💬 3</button>
+                    </div>
+                    <button class="btn-read-more" onclick="openModal('read', 'fisterra')">Lire la suite</button>
+                </article>
+
+                <article class="blog-card" data-category="culture">
+                    <div class="blog-author">
+                        <div class="author-avatar" style="background: #3498db;">PL</div>
+                        <div class="author-info">
+                            <span class="author-name">Pablo L.</span>
+                            <span class="post-date">12 janvier 2026</span>
+                        </div>
+                    </div>
+                    <h3>Une journée à Malpica</h3>
+                    <p class="blog-excerpt">
+                        Ce matin, nous sommes allés à Malpica avec la classe. C'est une ville très belle avec une plage spectaculaire. Nous avons mangé des empanadas au bord de la mer...
+                    </p>
+                    <div class="blog-tags">
+                        <span class="tag">Journal</span>
+                        <span class="tag">Malpica</span>
+                    </div>
+                    <div class="blog-reactions">
+                        <button class="reaction-btn">❤️ 18</button>
+                        <button class="reaction-btn">💬 7</button>
+                    </div>
+                    <button class="btn-read-more" onclick="openModal('read', 'malpica')">Lire la suite</button>
+                </article>
+
+                <article class="blog-card" data-category="culture">
+                    <div class="blog-author">
+                        <div class="author-avatar" style="background: #2ecc71;">AS</div>
+                        <div class="author-info">
+                            <span class="author-name">Ana S.</span>
+                            <span class="post-date">10 janvier 2026</span>
+                        </div>
+                    </div>
+                    <h3>Interview: Un pêcheur de Muxía</h3>
+                    <p class="blog-excerpt">
+                        J'ai interviewé M. Rodríguez, un pêcheur de Muxía. Il m'a parlé de son métier et de la vie dans ce village marin. C'était très intéressant de l'écouter...
+                    </p>
+                    <div class="blog-tags">
+                        <span class="tag">Interview</span>
+                        <span class="tag">Muxía</span>
+                    </div>
+                    <div class="blog-reactions">
+                        <button class="reaction-btn">❤️ 24</button>
+                        <button class="reaction-btn">💬 5</button>
+                    </div>
+                    <button class="btn-read-more" onclick="openModal('read', 'muxia')">Lire la suite</button>
+                </article>
+
+                <article class="blog-card" data-category="culture">
+                    <div class="blog-author">
+                        <div class="author-avatar" style="background: #9b59b6;">JM</div>
+                        <div class="author-info">
+                            <span class="author-name">Julie M. (France)</span>
+                            <span class="post-date">8 janvier 2026</span>
+                        </div>
+                    </div>
+                    <h3>Mon avis sur la Galice</h3>
+                    <p class="blog-excerpt">
+                        Je suis venue en Galice pendant les vacances et j'ai découvert un endroit magnifique! Les gens sont très gentils et la comida est increíble. J'adore les paysages verts...
+                    </p>
+                    <div class="blog-tags">
+                        <span class="tag">Opinion</span>
+                        <span class="tag">Échange</span>
+                    </div>
+                    <div class="blog-reactions">
+                        <button class="reaction-btn">❤️ 31</button>
+                        <button class="reaction-btn">💬 12</button>
+                    </div>
+                    <button class="btn-read-more" onclick="openModal('read', 'galice')">Lire la suite</button>
+                </article>
+
+                <article class="blog-card" data-category="dialogues">
+                    <div class="blog-author">
+                        <div class="author-avatar" style="background: #f39c12;">CR</div>
+                        <div class="author-info">
+                            <span class="author-name">Carlos R.</span>
+                            <span class="post-date">5 janvier 2026</span>
+                        </div>
+                    </div>
+                    <h3>Dialogue: Au restaurant</h3>
+                    <p class="blog-excerpt">
+                        - Bonjour! Une table pour deux, s'il vous plaît.<br>
+                        - Bien sûr! Par ici. Voici le menu.<br>
+                        - Merci! Qu'est-ce que vous recommandez?...
+                    </p>
+                    <div class="blog-tags">
+                        <span class="tag">Dialogue</span>
+                        <span class="tag">Restaurant</span>
+                    </div>
+                    <div class="blog-reactions">
+                        <button class="reaction-btn">❤️ 15</button>
+                        <button class="reaction-btn">💬 4</button>
+                    </div>
+                    <button class="btn-read-more" onclick="openModal('read', 'restaurant')">Lire la suite</button>
+                </article>
+
+                <article class="blog-card" data-category="legendes">
+                    <div class="blog-author">
+                        <div class="author-avatar" style="background: #1abc9c;">LM</div>
+                        <div class="author-info">
+                            <span class="author-name">Laura M.</span>
+                            <span class="post-date">3 janvier 2026</span>
+                        </div>
+                    </div>
+                    <h3>La légende de la Santa Compaña</h3>
+                    <p class="blog-excerpt">
+                        Un soir d'automne, Pablo marchait seul sur le chemin entre deux aldeas. Soudain, il entendit des lumières derrière lui...
+                    </p>
+                    <div class="blog-tags">
+                        <span class="tag">Légende</span>
+                        <span class="tag">Supernaturel</span>
+                    </div>
+                    <div class="blog-reactions">
+                        <button class="reaction-btn">❤️ 20</button>
+                        <button class="reaction-btn">💬 6</button>
+                    </div>
+                    <button class="btn-read-more" onclick="openModal('read', 'santa')">Lire la suite</button>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Culture -->
+    <section id="culture" class="culture-section">
+        <div class="container">
+            <h2 class="section-title">🌍 Culture et interculturalité</h2>
+            <p class="section-intro">
+                Découvrez les ressemblances et les différences entre la Galice et la Bretagne, 
+                deux régions côtières unies par leur amour de la mer.
+            </p>
+
+            <div class="comparison-hero">
+                <div class="region galicia">
+                    <span class="region-flag">🇪🇸</span>
+                    <h3>Galice</h3>
+                    <p>Costa da Morte</p>
+                </div>
+                <div class="comparison-symbol">🔄</div>
+                <div class="region bretagne">
+                    <span class="region-flag">🇫🇷</span>
+                    <h3>Bretagne</h3>
+                    <p>Côte de granit rose</p>
+                </div>
+            </div>
+
+            <div class="culture-cards">
+                <div class="culture-card">
+                    <h4>🌊 Les côtes</h4>
+                    <div class="culture-content">
+                        <div class="culture-galicia">
+                            <p>La Costa da Morte avec ses falaises spectaculaires, ses phares et ses plages préservées. L'océan Atlantique y est souvent agité.</p>
+                        </div>
+                        <div class="culture-bretagne">
+                            <p>La côte de granit rose avec ses pierres uniques, ses criques et ses ports de pêche traditionnels.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="culture-card">
+                    <h4>🐟 La pêche</h4>
+                    <div class="culture-content">
+                        <div class="culture-galicia">
+                            <p>Les pêcheurs galiciens sont célèbres pour leur pulpo et leurs pêche à la langouste. Les aldeas marineras sont nombreuses.</p>
+                        </div>
+                        <div class="culture-bretagne">
+                            <p>La Bretagne est connue pour ses homards, ses coquillages et sa pêche à la sardine. Les criées sont très actives.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="culture-card">
+                    <h4>🍽️ La gastronomie</h4>
+                    <div class="culture-content">
+                        <div class="culture-galicia">
+                            <p>Empanadas, pulpo a la gallega, queso de tetilla, lacón con gaitas. Le vino Albariño accompagne les plats.</p>
+                        </div>
+                        <div class="culture-bretagne">
+                            <p>Crêpes et galettes, beurre salé, cidre, homard breton, kouign-amann. Les fruits de mer sont rois!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="culture-card">
+                    <h4>🎵 La musique</h4>
+                    <div class="culture-content">
+                        <div class="culture-galicia">
+                            <p>La gaita gallega (cornemuse), les cantigas, la musique celte influences par la culture celtique.</p>
+                        </div>
+                        <div class="culture-bretagne">
+                            <p>Le kan ha diskan, la bombarde et le biniou, les fest-noz colorés.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="culture-card">
+                    <h4>🗿 L'art en pierre</h4>
+                    <div class="culture-content">
+                        <div class="culture-galicia">
+                            <p>Les cruceiros (croix monumentales) guidaient les pèlerins et exprimaient la foi populaire.</p>
+                        </div>
+                        <div class="culture-bretagne">
+                            <p>Les calvaires massifs des enclos paroissiaux avec de nombreuses figures sculptées.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="culture-card">
+                    <h4>👻 Les légendes</h4>
+                    <div class="culture-content">
+                        <div class="culture-galicia">
+                            <p>La Santa Compaña: procession nocturne des morts qui traversent les chemins.</p>
+                        </div>
+                        <div class="culture-bretagne">
+                            <p>L'Ankou: figure squelettique qui vient chercher les morts dans sa petite charrette.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="interceltic-section">
+                <h3>🎭 Le lien interceltique</h3>
+                <p>Galice et Bretagne partagent des racines celtiques et une culture maritime commune:</p>
+                <div class="interceltic-items">
+                    <div class="inter-item">
+                        <span class="inter-icon">🎪</span>
+                        <h4>Festivals interceltiques</h4>
+                        <p>Lorient (Bretagne) et Ortigueira (Galice) accueillent chaque année des milliers de visiteurs pour célébrer la culture celte.</p>
+                    </div>
+                    <div class="inter-item">
+                        <span class="inter-icon">🎵</span>
+                        <h4>Musique traditionnelle</h4>
+                        <p>La gaita gallega et le biniou breton sont des instruments cousins, hérités des anciens Celtes.</p>
+                    </div>
+                    <div class="inter-item">
+                        <span class="inter-icon">⚓</span>
+                        <h4>Routes maritimes</h4>
+                        <p>Depuis des siècles, les navires bretons et galiciens s'échangeaient tissus, vins et poissons.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Projet final -->
+    <section id="projet" class="projet-section">
+        <div class="container">
+            <h2 class="section-title">🎯 Projet final: Guide de voyage numérique</h2>
+            <p class="section-intro">
+                Le projet final de notre échange est la création d'un guide de voyage complet 
+                pour présenter la Costa da Morte aux voyageurs français.
+            </p>
+
+            <div class="projet-overview">
+                <div class="projet-intro">
+                    <h3>📋 Qu'est-ce que c'est?</h3>
+                    <p>Un guide de voyage numérique (type blog, site web ou présentation interactive) qui présente la Costa da Morte de manière attractive et utile pour des touristes français.</p>
+                    
+                    <h3>🎯 Objectifs</h3>
+                    <ul>
+                        <li>✅ Utiliser le français dans un contexte réel et motivant</li>
+                        <li>✅ Développer la créativité et l'autonomie</li>
+                        <li>✅ Collaborer avec les élèves français</li>
+                        <li>✅ Créer quelque chose d'utile et de professionnel</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="projet-structure-full">
+                <h3>📚 Structure du guide</h3>
+                <div class="structure-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-number">1</div>
+                        <div class="timeline-content">
+                            <h4>Bienvenue!</h4>
+                            <p>Présentation générale de la Costa da Morte</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">2</div>
+                        <div class="timeline-content">
+                            <h4>Les lieux essentiels</h4>
+                            <p>Phares, plages, villages à ne pas manquer</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">3</div>
+                        <div class="timeline-content">
+                            <h4>La gastronomie</h4>
+                            <p>Plats typiques, restaurants, marchés</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">4</div>
+                        <div class="timeline-content">
+                            <h4>Les activités</h4>
+                            <p>Randonnée, plages, sports nautiques</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">5</div>
+                        <div class="timeline-content">
+                            <h4>Lien Bretagne-Galice</h4>
+                            <p>Histoire commune, échanges, parallèles</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">6</div>
+                        <div class="timeline-content">
+                            <h4>Infos pratiques</h4>
+                            <p>Comment y aller, où dormir, transports</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projet-tools">
+                <h3>🛠️ Outils recommandés</h3>
+                <div class="tools-grid">
+                    <div class="tool-item">
+                        <span class="tool-icon">🎨</span>
+                        <p>Canva</p>
+                    </div>
+                    <div class="tool-item">
+                        <span class="tool-icon">✨</span>
+                        <p>Genially</p>
+                    </div>
+                    <div class="tool-item">
+                        <span class="tool-icon">📝</span>
+                        <p>Google Sites</p>
+                    </div>
+                    <div class="tool-item">
+                        <span class="tool-icon">📱</span>
+                        <p>Blog</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projet-calendar-full">
+                <h3>📅 Calendrier</h3>
+                <div class="calendar-phases">
+                    <div class="calendar-phase">
+                        <h4>Phase 1: Recherche</h4>
+                        <span>Janvier - Février</span>
+                        <ul>
+                            <li>Collecter des informations</li>
+                            <li>Sélectionner les lieux</li>
+                            <li>Rechercher des images</li>
+                        </ul>
+                    </div>
+                    <div class="calendar-phase">
+                        <h4>Phase 2: Rédaction</h4>
+                        <span>Mars - Avril</span>
+                        <ul>
+                            <li>Écrire les textes en français</li>
+                            <li>Créer les descriptions</li>
+                            <li>Relecture et corrections</li>
+                        </ul>
+                    </div>
+                    <div class="calendar-phase">
+                        <h4>Phase 3: Création</h4>
+                        <span>Mai - Juin</span>
+                        <ul>
+                            <li>Assembler le guide numérique</li>
+                            <li>Intégrer les médias</li>
+                            <li>Publier et partager</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 7: Apprendre le français -->
+    <section id="apprendre" class="apprendre-section">
+        <div class="container">
+            <h2 class="section-title">🧠 Apprendre le français</h2>
+            <p class="section-intro">
+                Des ressources et des stratégies pour améliorer ton français de manière efficace!
+            </p>
+
+            <div class="strategies-container">
+                <div class="strategy-box">
+                    <h3>💡 Stratégies d'apprentissage</h3>
+                    <ul>
+                        <li><strong>Exposition quotidienne:</strong> Regarde des vidéos, écoute des podcasts en français 15-30 min par jour</li>
+                        <li><strong>Vocabulaire actif:</strong> Apprends 5 nouveaux mots par jour et essaie de les utiliser</li>
+                        <li><strong>Pratiquer régulièrement:</strong> Parle français même si c'est difficile au début</li>
+                        <li><strong>Ne pas avoir peur des erreurs:</strong> Les erreurs sont la meilleure façon d'apprendre!</li>
+                    </ul>
+                </div>
+
+                <div class="strategy-box">
+                    <h3>🎯 Astuces pour mémoriser</h3>
+                    <ul>
+                        <li>Utilise des cartes mémoire (flashcards) avec Quizlet</li>
+                        <li>Associe les mots à des images ou des situations</li>
+                        <li>Réviser le vocabulaire avant de dormir aide à la mémorisation</li>
+                        <li>Écris des phrases complètes, pas seulement des mots isolés</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="resources-container">
+                <h3>📺 Ressources recommandées</h3>
+                
+                <div class="resources-tabs">
+                    <button class="resource-tab active" data-resource="videos">Vidéos</button>
+                    <button class="resource-tab" data-resource="podcasts">Podcasts</button>
+                    <button class="resource-tab" data-resource="apps">Applications</button>
+                    <button class="resource-tab" data-resource="sites">Sites web</button>
+                </div>
+
+                <div class="resources-panels">
+                    <div class="resource-panel active" id="videos">
+                        <div class="resource-item">
+                            <span>▶️</span>
+                            <div>
+                                <h4>French Pod 101</h4>
+                                <p>Vidéos courtes et amusantes pour apprendre</p>
+                            </div>
+                        </div>
+                        <div class="resource-item">
+                            <span>▶️</span>
+                            <div>
+                                <h4>InnerFrench</h4>
+                                <p>Podcasts vidéo pour améliorer ta compréhension</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resource-panel" id="podcasts">
+                        <div class="resource-item">
+                            <span>🎧</span>
+                            <div>
+                                <h4>News in Slow French</h4>
+                                <p>Actualités parlé lentement</p>
+                            </div>
+                        </div>
+                        <div class="resource-item">
+                            <span>🎧</span>
+                            <div>
+                                <h4>Coffee Break French</h4>
+                                <p>Leçons de français sous forme de podcast</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resource-panel" id="apps">
+                        <div class="resource-item">
+                            <span>📱</span>
+                            <div>
+                                <h4>Duolingo</h4>
+                                <p>Application gamifiée pour apprendre</p>
+                            </div>
+                        </div>
+                        <div class="resource-item">
+                            <span>📱</span>
+                            <div>
+                                <h4>Quizlet</h4>
+                                <p>Pour créer et étudier tes cartes mémoire</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resource-panel" id="sites">
+                        <div class="resource-item">
+                            <span>🌐</span>
+                            <div>
+                                <h4>TV5Monde</h4>
+                                <p>Exercices de compréhension orale avec vidéos</p>
+                            </div>
+                        </div>
+                        <div class="resource-item">
+                            <span>🌐</span>
+                            <div>
+                                <h4>Français Facile</h4>
+                                <p>Grammaire et exercices en ligne gratuits</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="expressions-container">
+                <h3>💬 Expressions indispensables en classe</h3>
+                <div class="expressions-grid">
+                    <div class="expression-item">
+                        <span class="expr-fr">Comment dit-on...?</span>
+                        <span class="expr-trans">¿Cómo se dice...?</span>
+                    </div>
+                    <div class="expression-item">
+                        <span class="expr-fr">Je ne comprends pas</span>
+                        <span class="expr-trans">No lo entiendo</span>
+                    </div>
+                    <div class="expression-item">
+                        <span class="expr-fr">Est-ce que tu peux répéter?</span>
+                        <span class="expr-trans">¿Puedes repetir?</span>
+                    </div>
+                    <div class="expression-item">
+                        <span class="expr-fr">Comment ça s'appelle?</span>
+                        <span class="expr-trans">¿Cómo se llama esto?</span>
+                    </div>
+                    <div class="expression-item">
+                        <span class="expr-fr">Est-ce que c'est correct?</span>
+                        <span class="expr-trans">¿Es correcto?</span>
+                    </div>
+                    <div class="expression-item">
+                        <span class="expr-fr">Qu'est-ce que ça veut dire?</span>
+                        <span class="expr-trans">¿Qué significa?</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 8: Espace numérique -->
+    <section id="numerique" class="numerique-section">
+        <div class="container">
+            <h2 class="section-title">📱 Espace numérique</h2>
+            <p class="section-intro">
+                Découvrez les outils numériques que nous utilisons dans ce projet!
+            </p>
+
+            <div class="tools-showcase">
+                <div class="tool-card">
+                    <span class="tool-icon">📲</span>
+                    <h3>QR Codes</h3>
+                    <p>Scannez avec votre téléphone pour accéder rapidement à des informations, vidéos ou liens.</p>
+                </div>
+
+                <div class="tool-card">
+                    <span class="tool-icon">🎬</span>
+                    <h3>Vidéos interactives</h3>
+                    <p>Avec sous-titres en français et espagnol, questions intégrées et possibilité de pause.</p>
+                </div>
+
+                <div class="tool-card">
+                    <span class="tool-icon">🎨</span>
+                    <h3>Canva</h3>
+                    <p>Pour créer des designs professionnels: affiches, infographies, présentations.</p>
+                </div>
+
+                <div class="tool-card">
+                    <span class="tool-icon">✨</span>
+                    <h3>Genially</h3>
+                    <p>Créer des présentations et contenus interactifs animés avec liens et vidéos intégrés.</p>
+                </div>
+
+                <div class="tool-card">
+                    <span class="tool-icon">📊</span>
+                    <h3>Google Forms</h3>
+                    <p>Pour créer des sondages, des quizzes et collecter des réponses avec graphiques automatiques.</p>
+                </div>
+
+                <div class="tool-card">
+                    <span class="tool-icon">🎮</span>
+                    <h3>Quizizz</h3>
+                    <p>L'apprentissage devient un jeu! Participez à des quiz individuels ou en groupe.</p>
+                </div>
+            </div>
+
+            <div class="collaborative-section">
+                <h3>🤝 Travail collaboratif</h3>
+                <div class="collab-grid">
+                    <div class="collab-item">
+                        <span>📤</span>
+                        <h4>Partage de documents</h4>
+                        <p>Google Drive pour partager nos textes, images et productions.</p>
+                    </div>
+                    <div class="collab-item">
+                        <span>💬</span>
+                        <h4>Communication</h4>
+                        <p>Email et blog pour poser des questions et partager nos découvertes.</p>
+                    </div>
+                    <div class="collab-item">
+                        <span>👥</span>
+                        <h4>Travail en binôme</h4>
+                        <p>Chaque élève espagnol travaille avec un élève français.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>🌊 Le Camiño dos Faros</h4>
+                    <p>Un projet d'échange scolaire entre la Galice et la Bretagne</p>
+                    <p class="level-info">Niveau FLE: A2-B1</p>
+                </div>
+                <div class="footer-section">
+                    <h4>📧 Contact</h4>
+                    <p>Tu as des questions? Écris-nous!</p>
+                    <p class="email">professeur@ecole.es</p>
+                </div>
+                <div class="footer-section">
+                    <h4>🔗 Liens rapides</h4>
+                    <ul class="footer-links">
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#unites">Unités didactiques</a></li>
+                        <li><a href="#projet">Projet final</a></li>
+                        <li><a href="#apprendre">Apprendre le français</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Projet Camiño dos Faros | Échange scolaire Galicia-Bretagne</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="blogModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <div class="modal-body" id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
